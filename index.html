@@ -20,6 +20,7 @@
   </head>
   <body>
     <div class="quanLyTuyenSinh">
+      <h2 class="container">Bài 1</h2>
       <div class="container py-5">
         <div class="form-group">
           <input
@@ -79,11 +80,76 @@
       <button
         class="btn btn-success container"
         style="width: 77px"
-        id="handleDiem"
+        onclick="handleDiem()"
       >
         Submit
       </button>
-      <div class="bai1__result"></div>
+      <div id="bai1__result"></div>
+    </div>
+
+    <div class="tinhTienDien">
+      <h2 class="container">Bài 2</h2>
+      <div class="container py-5">
+        <div class="form-group">
+          <input
+            type="text"
+            name=""
+            id="nameTienDien"
+            class="form-control"
+            placeholder="Nhập họ tên"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            name=""
+            id="soKg"
+            class="form-control"
+            placeholder="Nhập số Kw"
+          />
+        </div>
+        <button
+          class="btn btn-success"
+          style="width: 77px"
+          onclick="handleTienDien()"
+        >
+          Submit
+        </button>
+      </div>
+      <div id="bai2__result" class="bai2 container"></div>
+    </div>
+
+    <div class="tinhTienThue">
+      <h2 class="container">Bài 3</h2>
+      <p class="container">em không hiểu số người phụ thuộc nên em bỏ qua ạ</p>
+      <div class="container py-5">
+        <div class="form-group">
+          <input
+            type="text"
+            name=""
+            id="nameTienThue"
+            class="form-control"
+            placeholder="Nhập họ tên"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            name=""
+            id="tongThuNhap"
+            class="form-control"
+            placeholder="Tổng thu nhập năm"
+          />
+        </div>
+        <button
+          class="btn btn-success"
+          style="width: 77px"
+          onclick="handleTienThue()"
+        >
+          Submit
+        </button>
+      </div>
+      <div id="bai3__result" class="bai3 container"></div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
